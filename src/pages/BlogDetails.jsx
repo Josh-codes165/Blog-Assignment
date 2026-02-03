@@ -1,5 +1,5 @@
 import { useParams } from "react-router-dom";
-import blogs from "../data/Blogs";
+import blogs from "../data/Blog";
 import { useNavigate } from "react-router-dom";
 function BlogDetails() {
     const Navigate = useNavigate();
